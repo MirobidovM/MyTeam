@@ -1,0 +1,104 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "Livvic", "Arial", sans-serif;
+  background-color: var(--main-green);
+  color: var(--main-white);
+}
+
+main {
+  flex-grow: 1;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.large-text {
+  font-size: 100px;
+  line-height: 100px;
+}
+
+.semi-text {
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.medium-text {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.light-text {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.contact-link {
+  transition: 0.3s ease;
+  padding: 9px 33px 11px 32px;
+  border: 2px solid var(--main-white);
+  box-sizing: border-box;
+  border-radius: 24px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--main-white);
+}
+
+.contact-link:hover {
+  opacity: 0.7;
+}
+.contact-link:active {
+  opacity: 0.4;
+}
+
+.contact-link-pink {
+  color: var(--second-state-green);
+  border: 2px solid var(--second-state-green);
+}

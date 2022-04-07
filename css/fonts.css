@@ -1,0 +1,19 @@
+/* livvic-600 - latin */
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local(""), url("../fonts/livvic-v11-latin-600.woff2") format("woff2"),
+    url("../fonts/livvic-v11-latin-600.woff") format("woff");
+}
+
+/* livvic-700 - latin */
+@font-face {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local(""), url("../fonts/livvic-v11-latin-700.woff2") format("woff2"),
+    url("../fonts/livvic-v11-latin-700.woff") format("woff");
+}
