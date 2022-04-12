@@ -256,6 +256,7 @@
 .results__item-img:hover {
   opacity: 0.7;
 }
+
 .results__item-img:active {
   opacity: 0.4;
 }
