@@ -228,8 +228,8 @@
 .results__item-text {
   margin-bottom: 24px;
   font-weight: 600;
-  text-align: center;
   color: var(--main-white);
+  text-align: center;
 }
 
 .results__item-title {
